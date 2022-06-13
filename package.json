@@ -1,0 +1,26 @@
+{
+  "name": "staffinto_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus start",
+    "pre": "npx directus bootstrap",
+    "restore": "npx directus schema apply snapshot.yaml",
+    "backup": "npx directus schema snapshot snapshot.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-frame/staffinto_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/we-frame/staffinto_backend/issues"
+  },
+  "homepage": "https://github.com/we-frame/staffinto_backend#readme",
+  "dependencies": {
+    "directus": "^9.4.3"
+  }
+}
