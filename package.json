@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/we-frame/staffinto_backend#readme",
   "dependencies": {
-    "directus": "^9.4.3"
+    "directus": "^9.12.2"
   }
 }
